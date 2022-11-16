@@ -9,11 +9,11 @@
     "bootstrap": "npx lerna bootstrap",
     "start-app": "lerna run --stream --scope @roid/app start",
     "start-server": "lerna run --stream --scope @roid/server start:dev",
-    "format": "prettier --write 'packages/{app,server,models}/src/**/*.{js,jsx,ts,tsx,json,css,scss}'"
+    "format": "prettier --write 'packages/{app,server}/src/**/*.{js,jsx,ts,tsx,json,css,scss}'"
   },
   "devDependencies": {
     "lerna": "^6.0.3",
     "prettier": "^2.7.1",
-    "typescript": "^4.9.3"
+    "typescript": "4.8.4"
   }
 }
